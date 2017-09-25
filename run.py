@@ -19,7 +19,7 @@ while True:
 		print("Error " + str(r.status_code) + " for " + filename)
 	else:
 		print("Error " + str(r.status_code) + " for " + filename)
-		r.raise_for_status()
+		sleep(10)
 	i = i + 1
 	sleep(0.2)
 
