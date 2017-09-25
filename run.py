@@ -3,7 +3,7 @@ import requests
 from time import sleep
 
 # 67108 - 2 Dec 2015
-startNumber = 67108 # TODO: get this from the highest number (+1) in data directory
+startNumber = 69408 # TODO: get this from the highest number (+1) in data directory
 
 i = startNumber
 while True:
